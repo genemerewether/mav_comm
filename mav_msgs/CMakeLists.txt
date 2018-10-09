@@ -27,6 +27,8 @@ add_message_files(
   Status.msg
   FilteredSensorData.msg
   GpsWaypoint.msg
+  ImuStateUpdate.msg
+  FlatOutput.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
