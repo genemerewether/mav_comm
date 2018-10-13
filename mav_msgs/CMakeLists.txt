@@ -20,6 +20,7 @@ add_definitions(-std=c++11)
 add_message_files(
   FILES
   Actuators.msg
+  AttitudeRateThrust.msg
   AttitudeThrust.msg
   RateThrust.msg
   RollPitchYawrateThrust.msg
