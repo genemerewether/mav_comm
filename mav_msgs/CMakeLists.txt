@@ -22,6 +22,7 @@ add_message_files(
   Actuators.msg
   AttitudeRateThrust.msg
   AttitudeThrust.msg
+  BoolStamped.msg
   RateThrust.msg
   RollPitchYawrateThrust.msg
   TorqueThrust.msg
