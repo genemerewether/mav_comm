@@ -31,6 +31,7 @@ add_message_files(
   GpsWaypoint.msg
   ImuStateUpdate.msg
   FlatOutput.msg
+  Se3FeedForward.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
